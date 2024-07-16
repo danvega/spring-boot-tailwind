@@ -1,0 +1,15 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ../resources/static/main.css",
+    "watch": "tailwindcss --watch -i ./styles.css -o ../resources/static/main.css"
+  },
+  "author": "Dan Vega",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  }
+}
